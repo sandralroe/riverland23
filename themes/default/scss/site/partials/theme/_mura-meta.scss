@@ -1,0 +1,63 @@
+//Mura Specific Overrides
+.mura-item-meta__date{
+    @extend .text-uppercase, .text-muted, .small, .mb-2;
+}
+
+.mura-item-meta__title, dt.title{
+    @extend .h4;
+    a{
+      @extend .text-dark;
+    }
+}
+
+.mura-item-meta__summary, dd.summary{
+    //@extend .text-muted;
+}
+
+.mura-item-meta__credits, .mura-item-meta__tags{
+    @extend .text-uppercase, .text-muted, .small;
+}
+  
+.mura-item-meta__subtype, .subtype{
+    @extend .badge, .badge-pill, .badge-primary, .mb-2;
+    &[data-value]:before{
+        position: relative;
+        font-family:"fontawesome";
+        margin-left: .15rem;
+        vertical-align: top;
+    }
+    &[data-value="Webinar"]{
+        background-color: $goldenrod;
+        &:before{
+            content:'\f108';
+            bottom: -1px;
+        }
+    }
+    &[data-value="White Paper"]{
+        background-color: $orange;
+        &:before{
+            content:'\f1c1';
+        }
+    }
+}
+
+.mura-meta-image, dd.image img{ 
+    @extend  .img-fluid, .rounded-lg, .shadow;
+}
+
+div[data-layout="grid"]{
+    .mura-item-content{
+        a {
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+        img{
+			@extend .shadow;
+			@extend .rounded;
+		}
+    }
+    .mura-item-meta{
+        margin-top: 1.25rem;
+    }
+} 

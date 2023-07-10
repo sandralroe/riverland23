@@ -1,0 +1,44 @@
+.hasicon{
+    position:relative;
+}
+.hasicon::before {
+    content: '\f144';/*change if a different play icon is preferred*/
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate( -50%, -50% );
+    font-family: 'FontAwesome';
+}
+.youtubeWrapper,
+.vimeoWrapper{
+    float:none;
+    clear:both;
+    width:100%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:0;
+    height:0
+}
+.youtubeWrapper iframe,
+.vimeoWrapper iframe,
+.vidyard_iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%
+}
+span[id^="vidyard_span_"]{
+    width:100% !important;
+    padding-bottom:56.25%;
+}
+.splash-screen-wrapper .play-button .play-btn-bg{
+    opacity:.65;
+}
+#vidyard-overlay-wrapper{
+    z-index:1100;
+}
+#vidyard-popbox{
+    width:100%;
+}

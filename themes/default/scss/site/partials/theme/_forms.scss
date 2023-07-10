@@ -1,0 +1,45 @@
+// ==================================================
+// Globals - Forms
+// ==================================================
+
+.mura-form{
+    .mura-control-group{
+        .mura-section{
+            @extend .h5, .mb-4;
+        }
+    }
+}
+
+//resource request form
+#frm09279187-1EC6-4683-9BDDED62F4224827{
+    .mura-control-group{
+        label{
+            color: #fcfcfc;
+        }
+    }
+}
+
+.form{
+    &-signin, &-sendlogin{
+        max-width:550px;
+        .control-label{
+            text-align:left;
+        }
+        .mura-login-auth-btn{
+            height: auto;
+            display: flex;
+            text-decoration: none;
+            span{
+                display: inline-flex;
+                margin-left: auto;
+                margin-right: auto;
+                align-self: center;
+                padding: 0;
+            }
+            i{
+                height:auto;
+                width:auto;
+            }
+        }
+    }
+}

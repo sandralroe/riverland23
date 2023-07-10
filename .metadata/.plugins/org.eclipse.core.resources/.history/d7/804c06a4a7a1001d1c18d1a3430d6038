@@ -1,0 +1,4 @@
+<!--- Please insert your code here --->
+<cfquery name="getDirList" datasource="webdirectory" >
+	select autoempID, firstname, lastname, phone, email, building, room from riverlandemployees
+</cfquery>

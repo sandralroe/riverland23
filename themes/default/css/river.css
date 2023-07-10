@@ -1,0 +1,287 @@
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .h1,.h2,.h3,.h4,.h5,.h6,.mura-form .mura-control-group .mura-section,.mura-item-meta__title,blockquote,dt.title,h1,h2,h3,h4,h5,h6 {
+    margin-bottom: .5rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    
+}
+.header {
+  color: #ffffff;
+  background-color: #104170;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.headerbc {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+.headerbc a{
+  color: #ffffff;
+}
+/* breadcrumbs */
+.mycontainer {
+  position: relative;
+
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 320px;
+}
+
+.mytitle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Change the opacity value (0.7) to your desired level */
+  color: white;
+  padding: 10px;
+  font-size: 54px;
+  text-align: center;
+}
+
+div.bctransbox {
+
+  background-color: #2b3b6f;
+
+}
+
+div.bctransbox ol {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+ 
+  color: #ffffff;
+}
+div.bctransbox a {
+ 
+  color: #ffffff;
+}
+/* section background  */
+.sectionmargins {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bg-pink{
+  background-color: #cb817e;
+  color: #ffffff;
+ 
+}
+.bg-pink a{
+ 
+  color: #ffffff;
+}
+.bg-green{
+  background-color: #a4bbb3;
+  color: #ffffff;
+}
+.bg-green a{
+
+  color: #ffffff;
+}
+.bg-lightblue{
+  background-color: #7ca1c6 ;
+  color: #dce0e5;
+
+}
+.bg-lightblue a{
+
+  color: #dce0e5;
+}
+
+
+.rvr-bg {
+  background-color: #1968b3;
+  color: #ffffff;
+}
+.rvr-bg-image {
+  color: #ffffff;
+  background-image: url('http://localhost/sites/default/assets/Headers/river-background.png');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  /* The last value (0.5) represents the opacity. Adjust it as needed. */
+}
+
+
+.rvr-bg a {
+  color: #ffffff;
+}
+.rvr-bg a:visited {
+  color: #ffffff;
+}
+.rvr-bg-image a {
+  color: #ffffff;
+}
+.rvr-bg-image a:visited {
+  color: #ffffff;
+}
+
+
+
+/* Custom Buttons */
+/* pink button left */
+.btn-pink-left {
+  background-color: #cb817e;
+  color: #fff;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+.btn-pink-left:hover {
+  background-color: #e1b6b5;
+  color: #fff;
+  text-align: left;
+}
+/* pink button center */
+.btn-pink-center {
+  background-color: #cb817e;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.btn-pink-center:hover {
+  background-color: #e1b6b5;
+  color: #fff;
+  text-align: center;
+}
+
+/* gray-black block left text button */
+.btn-gray-left {
+  background-color: #4d5052;
+  color: #fff;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.btn-gray-left:hover {
+  background-color: #727679;
+  color: #fff;
+  text-align: left;
+}
+/* green center block button */
+.btn-gray-center {
+  background-color: #4d5052;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.btn-gray-center:hover {
+  background-color: #727679;
+  color: #fff;
+  text-align: center;
+}
+
+/*green riverland buttons */
+/* green block left text button */
+.btn-green-left {
+  background-color: #19b364 ;
+  color: #fff;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.btn-green-left:hover {
+  background-color: #1fe67f;
+  color: #fff;
+  text-align: left;
+}
+/* green center block button */
+.btn-green-center {
+  background-color: #19b364;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.btn-green-center:hover {
+  background-color: #1fe67f;
+  color: #fff;
+  text-align: center;
+}
+
+/* orange buttons */
+/* orange center block button */
+.btn-orange-center {
+  background-color: #efae55;
+  color: #fff;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.btn-orange-center:hover {
+  background-color: #f6cf9b;
+  color: #fff;
+  text-align: center;
+}
+/* oraange left block button */
+.btn-orange-left {
+  background-color: #efae55 ;
+  color: #fff;
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.btn-orange-left:hover {
+  background-color: #f6cf9b;
+  color: #fff;
+  text-align: left;
+}
+
+/* navigation */
+
+
+
+.sidenav {
+  margin-top: 10px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #1968b3;
+}
+
+.sidenav a {
+  transition: 0.3s ease;
+  background: #1968b3;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+.sidenav a:hover {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 20px 0; 
+}
+
+/* fonts */
+
+.card-body p{
+  font-size: 0.875rem;
+}
+
+/* alerts */
+
+.alert-success {
+  color: #526e65  ;
+  background-color: #d0dcd8;
+  border-color: #a4bbb3;
+}

@@ -1,0 +1,1 @@
+<mura name="Page Header" contenttypes="Page/Default"></mura>

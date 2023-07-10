@@ -1,0 +1,603 @@
+//base spacing options
+$tight-padding: 1rem !default;//MD breakpoint and down
+$tight-padding-lg: 1rem !default;//LG breakpoint and up
+$normal-padding: 2rem !default;//MD breakpoint and down
+$normal-padding-lg: 2.5rem !default;//LG breakpoint and up
+$loose-padding: 3rem !default;//MD breakpoint and down
+$loose-padding-lg: 5rem !default;//LG breakpoint and up
+
+//tight
+[data-objectspacing="tight"],
+.spacing-tight {
+    @include module-padding($tight-padding, $tight-padding, $tight-padding-lg, $tight-padding-lg);
+}
+[data-metaspacing="tight"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding($tight-padding, $tight-padding, $tight-padding-lg, $tight-padding-lg);
+        }
+    }
+}
+[data-contentspacing="tight"]{
+    > div.mura-object-content{
+        @include module-padding($tight-padding, $tight-padding, $tight-padding-lg, $tight-padding-lg);
+    }
+}
+//normal
+[data-objectspacing="normal"],
+.spacing-normal {
+    @include module-padding($tight-padding, $normal-padding, $normal-padding-lg, $normal-padding-lg);
+}
+[data-contentspacing="normal"]{
+    > div.mura-object-content{
+        @include module-padding($tight-padding, $normal-padding, $normal-padding-lg, $normal-padding-lg);
+    }
+}
+[data-metaspacing="normal"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding($tight-padding, $normal-padding, $normal-padding-lg, $normal-padding-lg);
+        }
+    }
+}
+//loose
+[data-objectspacing="loose"],
+.spacing-loose {
+    @include module-padding($tight-padding, $loose-padding, $tight-padding-lg, $loose-padding-lg);
+}
+[data-contentspacing="loose"]{
+    > div.mura-object-content{
+        @include module-padding($tight-padding, $loose-padding, $tight-padding-lg, $loose-padding-lg);
+    }
+}
+[data-metaspacing="loose"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding($tight-padding, $loose-padding, $tight-padding-lg, $loose-padding-lg);
+        }
+    }
+}
+
+//vertical spacing only
+//tight-y
+[data-objectspacing="tight-y"],
+.spacing-tight-y {
+    @include module-padding-y-only($tight-padding, $tight-padding);
+}
+[data-metaspacing="tight-y"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-y-only($tight-padding, $tight-padding);
+        }
+    }
+}
+[data-contentspacing="tight-y"]{
+    > div.mura-object-content{
+        @include module-padding-y-only($tight-padding, $tight-padding);
+    }
+}
+//normal-y
+[data-objectspacing="normal-y"],
+.spacing-normal-y {
+    @include module-padding-y-only($normal-padding, $normal-padding-lg);
+}
+[data-contentspacing="normal-y"]{
+    > div.mura-object-content{
+        @include module-padding-y-only($normal-padding, $normal-padding-lg);
+    }
+}
+[data-metaspacing="normal-y"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-y-only($normal-padding, $normal-padding-lg);
+        }
+    }
+}
+//loose-y
+[data-objectspacing="loose-y"],
+.spacing-loose-y {
+    @include module-padding-y-only($loose-padding, $loose-padding-lg);
+}
+[data-contentspacing="loose-y"]{
+    > div.mura-object-content{
+        @include module-padding-y-only($loose-padding, $loose-padding-lg);
+    }
+}
+[data-metaspacing="loose-y"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-y-only($loose-padding, $loose-padding-lg);
+        }
+    }
+}
+
+//bottom only options
+//tight
+//module
+[data-objectspacing="tight-bottom"],
+.spacing-loose-y {
+    @include module-padding-bottom-only($tight-padding, $tight-padding-lg)
+}
+//heading
+[data-metaspacing="tight-bottom"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-bottom-only($tight-padding, $tight-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="tight-bottom"]{
+    > div.mura-object-content{
+        @include module-padding-bottom-only($tight-padding, $tight-padding-lg)
+    }
+}
+
+//normal
+//module
+[data-objectspacing="normal-bottom"],
+.spacing-loose-y {
+    @include module-padding-bottom-only($normal-padding, $normal-padding-lg)
+}
+//heading
+[data-metaspacing="normal-bottom"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-bottom-only($normal-padding, $normal-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="normal-bottom"]{
+    > div.mura-object-content{
+        @include module-padding-bottom-only($normal-padding, $normal-padding-lg)
+    }
+}
+
+//loose
+//module
+[data-objectspacing="loose-bottom"],
+.spacing-loose-y {
+    @include module-padding-bottom-only($loose-padding, $loose-padding-lg)
+}
+//heading
+[data-metaspacing="loose-bottom"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-bottom-only($loose-padding, $loose-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="loose-bottom"]{
+    > div.mura-object-content{
+        @include module-padding-bottom-only($loose-padding, $loose-padding-lg)
+    }
+}
+
+//top only options
+//tight
+//module
+[data-objectspacing="tight-top"],
+.spacing-loose-y {
+    @include module-padding-top-only($tight-padding, $tight-padding-lg)
+}
+//heading
+[data-metaspacing="tight-top"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-top-only($tight-padding, $tight-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="tight-top"]{
+    > div.mura-object-content{
+        @include module-padding-top-only($tight-padding, $tight-padding-lg)
+    }
+}
+
+//normal
+//module
+[data-objectspacing="normal-top"],
+.spacing-loose-y {
+    @include module-padding-top-only($normal-padding, $normal-padding-lg)
+}
+//heading
+[data-metaspacing="normal-top"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-top-only($normal-padding, $normal-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="normal-top"]{
+    > div.mura-object-content{
+        @include module-padding-top-only($normal-padding, $normal-padding-lg)
+    }
+}
+
+//loose
+//module
+[data-objectspacing="loose-top"],
+.spacing-loose-y {
+    @include module-padding-top-only($loose-padding, $loose-padding-lg)
+}
+//heading
+[data-metaspacing="loose-top"]{
+    > div.mura-object-meta-wrapper{
+        > div.mura-object-meta{
+            @include module-padding-top-only($loose-padding, $loose-padding-lg)
+        }
+    }
+}
+//content
+[data-contentspacing="loose-top"]{
+    > div.mura-object-content{
+        @include module-padding-top-only($loose-padding, $loose-padding-lg)
+    }
+}
+
+//nested layout items
+.mura-object .mura-object:not([data-objectname="Form"]){
+    @include media-breakpoint-down(sm){
+        padding-left:0;
+        padding-right:0;
+        padding-bottom:0;
+        padding-top:0;
+        & + .mura-object{
+            padding-top:0.5rem;
+        }
+    }
+}
+
+//nested containers need vertical separation on mobile devices
+div[data-object="container"]:not(.mura-objectclass){
+    div[data-object="container"]{
+        & + div[data-object="container"]{
+            @include media-breakpoint-down(sm){
+                margin-top:2rem;
+            }
+        }
+    }
+}
+
+//image grid module theme
+.module-image-grid{
+    > .mura-object-content{
+        display: flex !important;//force flex
+        flex-flow: row wrap;
+        width: 100%;
+        [data-object="image"]{
+            flex: auto !important;
+            height: 250px !important;
+            min-width: 150px !important;
+            margin: .5rem !important; //gutter
+            overflow:hidden;
+            @extend .rounded-lg, .shadow;
+            figure{
+                height:250px;
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    vertical-align: middle;
+                    max-width: 100%;
+                }
+            }
+        }
+        [data-object="image"]:nth-child(4n+1) {
+            width: 250px !important;
+        }
+        [data-object="image"]:nth-child(4n+2) {
+            width: 325px !important;
+        }
+        [data-object="image"]:nth-child(4n+3) {
+            width: 180px !important;
+        }
+        [data-object="image"]:nth-child(4n+4) {
+            width: 380px !important;
+        }
+    }
+}
+
+.module-big-header{
+    height:460px;
+}
+
+.module-horizontal-nav{
+    .svCatSummary{
+        h2{
+            display:none;
+        }
+    }
+    .nav{
+        flex-direction: row !important;
+        justify-content:center;
+        background-color:$white;
+        margin-bottom:0;
+        padding-top:1rem;
+        padding-bottom:1rem;
+        .nav-item{
+            padding-left:3rem;
+            padding-right:3rem;
+            @include media-breakpoint-down(sm){
+                display:block;
+                border-left:0;
+                text-align:center;
+                width:100%;
+                margin-bottom:1rem;
+            }
+            .nav-link{
+                font-size:1.6rem;
+                line-height:1.5;
+                padding-top:0;
+                padding-bottom:0;
+                padding-left:0;
+                padding-right:0;
+                font-family:$font-family-sans-serif;
+                color:$black;
+                text-transform:uppercase;
+                font-weight:700;
+                letter-spacing:2px;
+                @include media-breakpoint-down(sm){
+                    display:inline-block;
+                }
+                span{
+                    display:none;
+                }
+                &.active{
+                    border-bottom:2px solid $blue;
+                }
+            }
+            + .nav-item{
+                border-left:1px solid $black;
+                @include media-breakpoint-down(sm){
+                    border-left:0;
+                }
+            }
+        }
+    }
+}
+
+.module-equal-height-icons{
+    [data-object="image"]{
+        figure{
+            img{
+                max-height:100px;
+                width:auto;
+                margin-left:0;
+                margin-right:auto;
+                display:block;
+                margin-bottom:2rem;
+            }
+        }
+    }
+    [data-object="text"]{
+        .mura-object-content{
+            img{
+                max-height:100px;
+                width:auto;
+                margin-left:0;
+                margin-right:auto;
+                display:block;
+                margin-bottom:2rem;
+            }
+        }
+    }
+    &-lg{
+        [data-object="image"]{
+            figure{
+                img{
+                    max-height:150px;
+                    width:auto;
+                    margin-left:0;
+                    margin-right:auto;
+                    display:block;
+                    margin-bottom:3rem;
+                }
+            }
+        }
+        [data-object="text"]{
+            .mura-object-content{
+                img{
+                    max-height:150px;
+                    width:auto;
+                    margin-left:0;
+                    margin-right:auto;
+                    display:block;
+                    margin-bottom:3rem;
+                }
+            }
+        }
+    }
+    &-xl{
+        [data-object="image"]{
+            figure{
+                img{
+                    max-height:220px;
+                    width:auto;
+                    margin-left:0;
+                    margin-right:auto;
+                    display:block;
+                    margin-bottom:5rem;
+                }
+            }
+        }
+        [data-object="text"]{
+            .mura-object-content{
+                img{
+                    max-height:220px;
+                    width:auto;
+                    margin-left:0;
+                    margin-right:auto;
+                    display:block;
+                    margin-bottom:5rem;
+                }
+            }
+        }
+    }
+}
+
+.module-center-icons{
+    [data-object="image"]{
+        figure{
+            img{
+                margin-right:auto;
+                margin-left:auto;
+            }
+        }
+    }
+    [data-object="text"]{
+        .mura-object-content{
+            img{
+                margin-right:auto;
+                margin-left:auto;
+            }
+        }
+    }
+}
+
+.module-layout-40-60{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(40% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(60% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }
+                &:nth-child(n+3){
+                    margin-top:$normal-padding-lg;
+                }
+            }          
+        }
+    }
+}
+
+.module-layout-60-40{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(60% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(40% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }
+                &:nth-child(n+3){
+                    margin-top:$normal-padding-lg;
+                }
+            }          
+        }
+    }
+}
+
+.module-layout-two-col{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(50% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(50% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }
+                &:nth-child(n+3){
+                    margin-top:$normal-padding-lg;
+                }
+            }          
+        }
+    }
+}
+
+.module-layout-three-col{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(33.33333333% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(33.33333333% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }                
+                &:nth-child(n+4){
+                    margin-top:$normal-padding-lg;
+                }
+            }
+        }
+    }
+}
+
+.module-layout-four-col{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(25% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(25% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }                
+                &:nth-child(n+5){
+                    margin-top:$normal-padding-lg;
+                }
+            }
+        }
+    }
+}
+
+.module-layout-five-col{
+    &.mura-object[data-instanceid]{
+        > div.mura-object-content{
+            justify-content: space-between !important;
+            display: grid !important;
+            grid-template-columns: repeat(auto-fill, calc(20% - #{$normal-padding-lg / 1.42857143}));
+            > .mura-object{
+                + .mura-object{             
+                    &:nth-child(n+6){
+                        margin-top:$normal-padding-lg;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.module-layout-six-col{
+    > .mura-object-content{
+        justify-content: space-between !important;
+        > .mura-object{
+            @include media-breakpoint-up(lg){
+                width:calc(16.666666666% - #{$normal-padding-lg / 2}) !important;
+            }
+            + .mura-object{
+                //margin-top:$normal-padding;
+                @include media-breakpoint-up(lg){
+                    width:calc(16.666666666% - #{$normal-padding-lg / 2}) !important;
+                    margin-top:0;
+                }                
+                &:nth-child(n+7){
+                    margin-top:$normal-padding-lg;
+                }
+            }
+        }
+    }
+}

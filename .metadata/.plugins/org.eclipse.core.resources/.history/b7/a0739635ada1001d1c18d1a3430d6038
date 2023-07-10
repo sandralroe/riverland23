@@ -1,0 +1,57 @@
+<!--- Please insert your code here --->
+<cfquery name="getDirList" datasource="webdirectory" >
+	select empautoID, firstname, lastname, phone, email, campus, room from riverlandemployees
+</cfquery>
+
+
+
+<!doctype html>
+<html>
+<head>
+	
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+  
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+<script type="text/javascript" class="init">
+		$(document)
+		.ready(function() {
+    		var table = $('#example').DataTable( {
+    			 "pageLength": 100,
+        		rowReorder: {
+            	selector: 'td:nth-child(2)'
+        	},
+        responsive: true
+	    } 
+   
+    );   
+    
+} );
+
+		</script>
+</head>
+
+<body>
+	<table class="display nowrap" id="example" style="width:100%">
+	<thead>
+		<tr>
+			<th width="25%">First Name</th>
+			<th width="25%">Last Name</th>
+			<th width="25%">Phone</th>
+			<th width="25%">Email</th>
+		</tr>
+	</thead>
+	<tbody><cfoutput query="getDirList" >
+		<tr>
+			<td>#Firstname#</td>
+			<td> #lastname#</td>
+			<td>#phone#</td>
+			<td>#department#</td>
+		</tr></cfoutput>	
+</tbody>
+</table>
+	
+
+</body>
+</html>

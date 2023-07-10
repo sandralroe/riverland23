@@ -1,0 +1,112 @@
+.pdf-btn-container {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+.mura-pdfcontainer {
+    position:relative;
+}
+
+.mura-pdfviewer {
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align:center;
+    overflow:auto;    
+    background:#ccc;
+    height:100%;
+/*    max-height:450px;*/
+    position: relative;
+    border-color:  #2C2C2C;
+    border-width: 1px;
+}
+
+.mura-pdfcontrols{
+    padding: 0.25rem;
+    background-color: #2C2C2C;
+    font-size: 14px;
+    text-align:center;
+}
+
+.mura-pdfcontrols .mura-pdfcontrols-group{
+    margin: 0 5px;
+}
+.mura-pdfcontrols button{
+    border: 1px solid #444444;
+    background-color:#444444;
+    color:#eee;
+    min-width:26px;
+    line-height:26px;
+}
+
+.mura-pdfcontrols .mura-pdfzoom,
+.mura-pdfcontrols .mura-pdfpaging{
+    background:#151515;
+    color:#eee;
+    padding: 2px 4px;
+    display: inline-block;
+}
+.mura-pdfcontrols button.mura-pdfzoomin,
+.mura-pdfcontrols button.mura-pdfzoomout,
+.mura-pdfcontrols button.mura-pdfprev,
+.mura-pdfcontrols button.mura-pdfnext{
+    margin:0;
+    background-color: transparent;
+    border-radius: 12px;
+    height: 24px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+.mura-pdfcontrols .mura-pdfzoom button.mura-pdfzoomout,
+.mura-pdfcontrols .mura-pdfpaging button.mura-pdfprev{
+    margin-right:1px;
+}
+
+.mura-pdfcontrols .mura-pdfreadablebytes{
+    display: inline-block;
+    /*background:#151515;*/
+    color:#eee;
+    padding: 0 .25rem;
+    height: 28px;
+    line-height: 28px;
+}
+
+.mura-pdfcanvas {
+    /* border: 1px solid black; */
+    direction: ltr;
+    box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05) !important;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+/* fullscreen  */
+ :fullscreen.mura-pdfcontainer {
+    z-index: 2000000;
+    position: fixed !important;
+    left: 0px !important;
+    top: 0px !important;
+    min-height: 100vh !important;
+    min-width: 100vw !important;    
+    background:#ccc !important;
+}
+:fullscreen.mura-pdfcontainer .mura-pdfviewer{
+    height:100vh;
+    max-height:calc(100% - 48px);
+}
+:fullscreen.mura-pdfcontainer .mura-pdfcontrols{
+    z-index: 300000;
+    max-width:100vw;
+}
+:fullscreen.mura-pdfcontainer .mura-pdfcontrols.mura-pdfcontrols-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+:fullscreen.mura-pdfcontainer .mura-pdfcontrols .mura-pdffullscreenopen{
+    display: none;
+}
+.mura-pdfcontainer .mura-pdfcontrols .mura-pdffullscreenclose{
+    display: none;
+}
+:fullscreen.mura-pdfcontainer .mura-pdfcontrols .mura-pdffullscreenclose{
+    display: inline-block;
+}

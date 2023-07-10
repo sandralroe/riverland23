@@ -1,0 +1,39 @@
+#resource-filter-form{
+	margin-bottom:2rem;	
+}
+#resource-filter-form .filter__constrain{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	width:100%;
+}
+#resource-filter-form .filter__constrain::after{
+	content: '';
+	  display: block;
+	  flex:999;
+}
+#resource-filter-form select {
+	width: 100%;
+	max-width: 100%;
+}
+#resource-filter-form .topic,
+#resource-filter-form .type{
+	margin:1rem .5rem 0;
+	flex: 1 1 calc(33.3333333333% - 1rem);
+	position:relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+#resource-filter-form .topic p,
+#resource-filter-form .type p{
+	font-weight:normal;
+	font-size:.9rem;
+	margin-bottom:0;
+}
+@media(max-width:767px){
+	#resource-filter-form .topic,
+	#resource-filter-form .type{
+		flex: 0 1 calc(50% - 1rem);
+	}
+}

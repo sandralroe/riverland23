@@ -1,0 +1,1 @@
+<mura name="Privacy Tools" contenttypes="Page" condition="(m.siteConfig().hasModule('mxpflagmodule') and listFind('privacy-statement,privacy-policy,privacy',listLast(m.content('filename'),'/')))"></mura>

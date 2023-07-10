@@ -1,0 +1,107 @@
+/* License goes here */
+
+.mura.ie {
+	
+	// All IE
+	.navbar-inner { filter: none; }
+	.fieldset, fieldset { background-color: #fdfdfd !important; }
+	.mura-grid dt a.title {
+					overflow-x: hidden !important;
+					text-overflow: clip !important;
+					font-family: sans-serif;
+					
+						&:before {
+							font-family: FontAwesome; // Resetting fonts, title would display serif, :before would display no icon without resetting
+							}
+							
+					
+						&.file:before {
+							font-family: SilkscreenNormal; // Resetting fonts, title would display serif, :before would display no icon without resetting
+						}
+					
+					}
+	
+	
+	input[type="radio"], input[type="checkbox"] {
+		padding-left: 0;
+		box-shadow: none;
+		vertical-align: middle;
+		min-height: 0;
+		padding-top: 0;
+		}
+		
+	input[type="file"] {
+			width: 400px;
+			height: 24px;
+			}
+	
+	textarea {
+		height: 260px;
+		}
+	
+		
+	// IE10
+	
+		&.ie10 {
+		
+		
+		}
+
+	
+	.mura-grid, .mura-table-grid {
+		.scheduled a i {
+					z-index: 1000;
+					zoom: 1;
+					}	
+		}
+		
+	// ck editor fix
+	
+	input.cke_dialog_ui_input_text{
+		height: 28px;
+	}
+
+	// IE 8
+
+	&.ie8 {
+		
+		.dropdown-menu li.divider { background: transparent; border-color: #666; }
+		
+		.nav-site .dropdown-menu, #newContentMenu ul { background: #333; }
+			
+		.row-fluid [class*="span"] { min-height: 18px; } /* Fixes form input height */
+		
+		#tabCategorization .mura-grid {
+	
+			.categoryLabelContainer { padding-bottom: 0; }
+			label {margin-bottom: 0; }
+			}
+			
+		input[type="text"] {
+			height: 28px;
+			}
+			
+		.input-append input[type="text"] {
+			height: 18px;
+			}
+			
+	}
+	
+	
+	&.ie8, &.ie9 {
+		
+		#clogin {
+			
+			input[type="text"],input[type="password"] {
+				width: 270px;
+				}
+			}
+			
+
+	}
+
+	&.ie9 {
+		
+	}
+
+}

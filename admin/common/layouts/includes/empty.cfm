@@ -1,0 +1,1 @@
+<!--- license goes here ---><cfcontent reset="true"><cfsetting enablecfoutputonly="yes"><cfoutput>#trim(fusebox.layout)#</cfoutput><cfsetting enablecfoutputonly="no">

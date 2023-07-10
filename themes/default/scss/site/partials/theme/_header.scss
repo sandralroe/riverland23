@@ -1,0 +1,32 @@
+// ==================================================
+// Header
+// ==================================================
+
+.navbar-nav {
+	.nav-item {
+		&:hover {
+			> .dropdown-menu {
+				display: block;
+			}
+		}
+
+		.dropdown-menu {
+			margin: 0;
+		}
+	}
+}
+
+.page-header-image{
+	background:no-repeat center center/cover;
+	padding-top:35%;
+	@media screen and (min-width:1600px){
+		padding-top:30%;
+	}
+}
+
+@media(max-width:767px){
+	.navbar{
+		padding-left:$mobile-horizontal-padding;
+		padding-right:$mobile-horizontal-padding;
+	}
+}

@@ -1,0 +1,1 @@
+<mura name="PDF Viewer" iconclass="mi-file-pdf-o" contenttypes="*"/>

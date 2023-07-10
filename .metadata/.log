@@ -1,0 +1,91 @@
+!SESSION 2023-01-31 14:38:23.834 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\qf9348pp\Documents\sandywebsite
+
+!ENTRY org.eclipse.ui 2 0 2023-01-31 14:38:25.488
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-01-31 14:38:25.488
+!MESSAGE Cannot bind to an undefined command: plug-in='com.adobe.ide.coldfusion.keyboard', id='com.adobe.ide.coldfusion.keyboard.CFSearchDialogCmd'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-01-31 14:38:25.488
+!MESSAGE Cannot bind to an undefined command: plug-in='com.adobe.ide.coldfusion.keyboard', id='com.adobe.ide.coldfusion.keyboard.CFSearchDialogCmd'
+
+!ENTRY com.adobe.editor.cfml 4 0 2023-01-31 14:39:23.660
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 0 2023-01-31 16:00:02.886
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchWindow.getExtensionTracker(WorkbenchWindow.java:2792)
+	at org.eclipse.ui.actions.BaseNewWizardMenu.unregisterListeners(BaseNewWizardMenu.java:260)
+	at org.eclipse.ui.actions.BaseNewWizardMenu.dispose(BaseNewWizardMenu.java:159)
+	at org.eclipse.ui.actions.NewWizardMenu.dispose(NewWizardMenu.java:231)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3618)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at com.adobe.ide.coldfusion.rcp.intro.Application.start(Application.java:147)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+!SESSION 2023-02-01 10:11:32.752 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2023-02-01 10:11:44.634
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-02-01 10:11:44.634
+!MESSAGE Cannot bind to an undefined command: plug-in='com.adobe.ide.coldfusion.keyboard', id='com.adobe.ide.coldfusion.keyboard.CFSearchDialogCmd'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-02-01 10:11:44.634
+!MESSAGE Cannot bind to an undefined command: plug-in='com.adobe.ide.coldfusion.keyboard', id='com.adobe.ide.coldfusion.keyboard.CFSearchDialogCmd'
+
+!ENTRY org.eclipse.ui 4 0 2023-02-01 11:03:10.815
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.WorkbenchWindow.getExtensionTracker(WorkbenchWindow.java:2792)
+	at org.eclipse.ui.actions.BaseNewWizardMenu.unregisterListeners(BaseNewWizardMenu.java:260)
+	at org.eclipse.ui.actions.BaseNewWizardMenu.dispose(BaseNewWizardMenu.java:159)
+	at org.eclipse.ui.actions.NewWizardMenu.dispose(NewWizardMenu.java:231)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.jface.action.MenuManager.dispose(MenuManager.java:250)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3933)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3564)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3618)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:300)
+	at com.adobe.ide.coldfusion.rcp.intro.Application.start(Application.java:147)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)

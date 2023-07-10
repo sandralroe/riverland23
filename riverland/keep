@@ -1,0 +1,178 @@
+     <nav class="navthree navbar navbar-expand-lg  bg-danger navbar-dark shadow">
+        
+        
+          <div class="collapse navbar-collapse" id="navbar-content">
+            <ul class="navbar-nav mx-auto nav-fill nav-pills ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Academics</a>
+              </li>
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Admissions</a>
+                <div class="w-100 dropdown-menu shadow">
+                  <div class="mega-content px-4  ">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-4 py-4">
+                          <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button">Apply to Riverland</button>
+                            <button class="btn btn-primary" type="button">Vist Campus</button>
+                          </div>
+                        
+                        </div>
+                        <div class="col-8  py-4">
+                          <h5>What Type of Student Are You?</h5>
+                          <div class="container">
+                            <div class="row gx-2 ">
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/edit%20img_0560-91.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">New Student</h5>
+                                  
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/edit%20img_0634-165.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Returning Student</h5>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/fabiola-2.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">International Student</h5>
+                                
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/edit%20img_0634-165.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">High School Students</h5>
+                                 
+                                  </div>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                          <div class="container">
+                            <div class="row gx-2 ">
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/library-1.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Visiting Students</h5>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/Image/admissions/veteran-student-min-min.png" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Veterans / Military</h5>
+                               
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="https://www.riverland.edu/riverland/assets/File/admissions/edit%20img_0634-165.jpg" class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Adult Learners</h5>
+                                  
+                                  </div>
+                                </div>
+                              </div>
+                          
+                              <div class="col-lg-3 col-md-6">
+                                <div class="card">
+                                  <img src="..." class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  </div>
+                                </div>
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                       
+                      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Programs</a>
+              </li>
+              <li class="nav-item dropdown dropdown-mega position-static">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Tuition and Aid</a>
+                <div class="dropdown-menu shadow">
+                  <div class="mega-content px-4">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <h5>Title</h5>
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Mega Menu Link</a>
+                            <a class="list-group-item" href="#">Mega Menu Link</a>
+                            <a class="list-group-item" href="#">Mega Menu Link</a>
+                          </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <h5>Card Title</h5>
+                          <div class="card">
+                      <img src="img/banner-image.jpg" class="img-fluid" alt="image">
+                      <div class="card-body">
+                        <p class="card-text">Description goes here...</p>
+                      </div>
+                    </div>
+                        </div>
+                        <div class="col-12 col-sm-4 col-md-3 py-4">
+                          <h5>Title</h5>
+                            <p>Description goes here...</p>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 py-4">
+                          <h5>Title</h5>
+                          <div class="list-group">
+                            <a class="list-group-item" href="#">Menu Link</a>
+                            <a class="list-group-item" href="#">Menu Link</a>
+                            <a class="list-group-item" href="#">Menu Link</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Student Life</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Student Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Transfer</a>
+              </li>
+            </ul>
+           
+          </div>
+      
+      </nav>

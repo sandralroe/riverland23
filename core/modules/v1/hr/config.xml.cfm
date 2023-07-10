@@ -1,0 +1,1 @@
+<mura name="Horizontal Rule" contenttypes="*" iconclass="mi-minus"></mura>

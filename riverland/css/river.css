@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+.firstnav{
+  font-size: small;
+  margin: auto 0 auto auto;
+}
+.navthree {
+  font-size: 1.2vw;
+  font-weight: 300;
+
+}
+
+.navbarblue {
+  background-color: #1968b3;
+}
+
+.navicons {
+  color: #ffff;
+  font-size: .8rem;
+}
+.navcontainer {
+  padding: 0;
+}
+/* colors */
+.lightgray {
+  background-color: #e3f0fb;
+}
+/* Headings */
+
+H1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
+.BigHeading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.landingHeading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* sections */
+.newsevents {
+  margin-top: 20px;
+}
+
+
+
+/* header container */
+.header-image-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-image {
+  width: 100%;
+  height: auto%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

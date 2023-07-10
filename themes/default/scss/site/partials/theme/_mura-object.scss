@@ -1,0 +1,25 @@
+@import "../helpers/bootstrap";
+
+@media screen AND (max-width:767px){
+	.mura-region-inherited, .mura-region-local {
+		.mura-object {
+			> .mura-object-content{
+				margin-left:auto !important;
+				margin-right:auto !important;
+			}
+		}
+	}
+}
+[data-object="image"]{
+	.mura-object-content{
+		figure{
+			margin:0;
+			img{
+				@extend .rounded-lg, .shadow;
+			}
+		}
+	}
+	&[data-stylesupport*="objectbackgroundimageurl"]{
+		@extend .rounded-lg, .shadow;
+	}
+}

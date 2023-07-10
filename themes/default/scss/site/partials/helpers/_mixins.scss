@@ -1,0 +1,111 @@
+@mixin fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin icon-before {	// For icons added immediately before the element targeted
+	margin-right: .25em;
+	color: $brand-primary;
+}
+
+@mixin module-theme($module-bg-color, $module-bg-text-color) {
+    background-color: $module-bg-color;
+    color: $module-bg-text-color;
+}
+
+.module-brand { @include module-theme($blue, $white); }
+.module-light-gray { @include module-theme($light-gray, $black); }
+.module-medium-gray { @include module-theme($medium-gray, $black); }
+.module-dark-gray { @include module-theme($dark-gray, $white); }
+.module-black { @include module-theme($black, $white); }
+.module-orange { @include module-theme($orange, $white); }
+.module-red { @include module-theme($red, $white); }
+.module-azul { @include module-theme($azul, $white); }
+.module-sea-foam  { @include module-theme($sea-foam, $white); }
+.module-teal { @include module-theme($teal, $white); }
+.module-green { @include module-theme($green, $white); }
+.module-cranberry { @include module-theme($cranberry, $white); }
+.module-goldenrod { @include module-theme($goldenrod, $white); }
+.module-violet { @include module-theme($violet, $white); }
+.module-purple { @include module-theme($purple, $white); }
+.module-blue { @include module-theme($blue, $white); }
+.module-white { @include module-theme($white, $black); }
+
+@mixin footer-theme() {
+    color: #b5b5b5;
+    padding: 50px 0;
+    font-weight: 200;
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        
+        li {
+            
+            a {
+                color: #b5b5b5;
+                text-decoration: none;
+                font-weight: 200;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.footer-theme {
+    @include footer-theme();
+}
+
+@mixin module-padding($padding-x, $padding-y, $padding-x-lg, $padding-y-lg){
+    padding: $padding-y $padding-x;
+    @include media-breakpoint-up(md){
+        padding: $padding-y;
+    }
+    @include media-breakpoint-up(lg){
+        padding: $padding-y-lg;
+    }
+}
+
+@mixin module-padding-y-only($padding-y, $padding-y-lg){
+    padding-top: $padding-y;
+    padding-bottom: $padding-y;
+    @include media-breakpoint-up(md){
+        padding-top: $padding-y;
+        padding-bottom: $padding-y;
+    }
+    @include media-breakpoint-up(lg){
+        padding-top: $padding-y-lg;
+        padding-bottom: $padding-y-lg;
+    }
+}
+
+@mixin module-padding-bottom-only($padding-bottom, $padding-bottom-lg){
+    padding-bottom: $padding-bottom;
+    @include media-breakpoint-up(md){
+        padding-bottom: $padding-bottom;
+    }
+    @include media-breakpoint-up(lg){
+        padding-bottom: $padding-bottom-lg;
+    }
+}
+
+@mixin module-padding-top-only($padding-top, $padding-top-lg){
+    padding-top: $padding-top;
+    @include media-breakpoint-up(md){
+        padding-top: $padding-top;
+    }
+    @include media-breakpoint-up(lg){
+        padding-top: $padding-top-lg;
+    }
+}

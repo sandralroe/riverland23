@@ -1,0 +1,194 @@
+.mura-editable {
+	position: relative !important;
+	min-height: 20px !important;
+	min-width: 20px !important;
+
+	.mura-editable-attribute {
+		outline: 2px dotted #DBDBDB !important;
+		outline-offset: -2px !important;
+
+		&:hover, 
+		&.mura-active,
+		&:focus {
+			outline: 2px solid #BEBEBE !important;
+			outline-offset: -2px !important;
+		}
+
+	}
+
+	.mura-editable-label {
+		display: none !important;
+		background: #BEBEBE !important;
+		border-radius: 3px 3px 0 0;
+		color: #000 !important;
+		font-family: "Inter UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 11px !important;
+		font-weight: 700 !important;
+		height: 24px !important;
+		letter-spacing: .025em;
+		line-height: 24px !important;
+		margin: 0 !important;
+		min-width: 64px;
+		opacity: .75;
+		padding: 1px 16px 2px 31px !important;
+		position: absolute !important;
+		left: 12px !important;
+		top: -24px !important;
+		text-align: left !important;
+		text-transform: uppercase !important;
+		width: auto !important;
+		z-index: 10001 !important;
+	}
+
+	&.inline {
+		.inline-block() !important;
+	}
+
+	&.mura-region-active{
+		outline: 2px solid #BEBEBE !important;
+		outline-offset: -2px !important;
+	}
+
+	&.mura-region-active .mura-editable-label,
+	&:hover .mura-editable-label {
+		.inline-block() !important;
+	}
+
+	&.inline {
+		.inline-block() !important;
+	}
+
+	&.mura-region-active{
+		outline: 2px solid #BEBEBE !important;
+		outline-offset: -2px !important;
+	}
+
+	&.mura-region-active .mura-editable-label,
+	&:hover .mura-editable-label {
+		.inline-block() !important;
+
+		&:before{
+			content: '\f05b';
+	    display: inline-block;
+	    font-family: FontAwesome;
+			font-size: 14px;
+			font-weight: normal;
+	    position: absolute;
+	    left: 12px;
+	    top: 1px;				
+		}
+	}
+
+	&>.mura-editable-attribute[data-attribute="title"] + .mura-editable-label:before{
+		content: '\f031';
+	}
+	&>.mura-editable-attribute[data-attribute="body"] + .mura-editable-label:before{
+		content: '\f15c';
+	}
+
+	&.mura-inactive,
+	&.mura-inactive:hover {
+		outline: 0 !important;
+		min-height: 0 !important;
+
+		.mura-editable-label {
+			display: none !important;
+		}
+
+		.mura-editable-attribute {
+			outline: 0px !important;
+
+			&:hover,
+			&.mura-active,
+			&:focus {
+				outline: 0px !important;
+			}
+
+		}
+
+	}
+
+
+}
+
+.mura-editable .mura-object .mura-editable-attribute.mura-active, 
+.mura-editable .mura-object .mura-editable-attribute:focus,
+.mura-editable .mura-object .mura-editable-attribute:hover, 
+.mura-editable .mura-object .mura-editable-attribute{
+  outline: 0 !important;
+}
+
+#draft-prompt table {
+	font-size: 11px !important;
+}
+
+#approvalModalContainer {
+	dd {
+		margin: 0 0 1em 0;
+	}
+
+	textarea {
+		width: 95%
+	}
+
+}
+
+// bug fix for meta image not being clickable
+.mura-asset + .mura-region.mura-editable {
+	position: relative;
+	z-index: 1;
+}
+
+@media print {
+	.mura-toolbar {
+		display: none;
+	}
+
+	.editableObject ul.editableObjectControl {
+		display: none !important;
+	}
+
+}
+
+.mura-regions-state__pushed--right .mura__layout-manager__display-regions {
+	left: 0;
+	transition: left 1s ease;
+}
+
+.mura-bigui-state__pushed--right .mura__layout-manager__bigui {
+	left: 0;
+	transition: left 1s ease;
+}
+
+// CK Editor
+.editableObject .cke_editable form {
+	border: 0 !important;
+	padding: 0 !important;
+}
+
+// Z-Indexes
+#frontEndToolsModalContainer {
+	z-index: 999999;
+}
+
+#shadowbox_container {
+	z-index: 499997;
+}
+
+#shadowbox_overlay {
+	z-index: 499996;
+}
+
+#dialog_overlay {
+	z-index: 500000;
+}
+
+.editForm {
+	z-index: 499998;
+}
+
+//Commented out in ckeditor.js
+/* .cke_editable form {
+	border: 1px dotted red;
+	padding: 2px;
+} */

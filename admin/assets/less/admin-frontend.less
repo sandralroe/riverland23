@@ -1,0 +1,110 @@
+/* License goes here */
+
+// Bootstrap /* Bringing these in separately to enable name-spacing of bootstrap styles to avoid conflicts with Bootstrapped-based themes */
+
+	@import "bootstrap/variables.less";
+	@import "bootstrap/mixins.less";
+	@import "variables.less";
+	@import "mixins.less";
+	@import "editable-objects.less";
+	@import "nice-select.less";
+	@import "bootstrap-slider.less";
+	@import "layoutmanager.less";
+	@import "oneui/modules/icons.fontawesome.less";
+
+// Front-end variables
+
+	@feToolbarFontSize: 13px;
+	@feToolbarIconSize: 18px;
+	@feToolBarHeight: 36px;
+
+/* Toolbar overlap */
+html.mura-edit-mode > body {
+    margin-top: @feToolBarHeight;
+}
+
+/* CSS Reset to prevent theme overrides */
+html.mura-edit-mode #frontEndTools {
+	div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, em, img, strong, i, dl, dt, dd, ol, ul, li, form, label, canvas, figure{
+		background: none;
+		border: 0;
+		font-size: 100%;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: normal;
+		line-height: normal;
+		margin: 0;
+		opacity: 1;
+		outline: none;
+		padding: 0;
+		text-align: left;
+		text-indent: initial;
+		text-shadow: none;
+		text-transform: none;
+		transform: none;
+		vertical-align: baseline;
+		white-space: normal;
+		word-break: normal;
+		word-spacing: normal;
+	}
+}
+
+/* Dropdown adjustment */
+html.mura-edit-mode #frontEndTools > ul > li.dropdown:hover > ul.dropdown-menu {
+	display: block !important;
+}
+
+/* global box-sizing reset */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* apply to .mura parent class only */
+.mura {
+
+	// Layout Manager Sidebar
+	@import "layoutmanager-sidebar.less";
+
+	// Base CSS
+	@import "bootstrap/type.less";
+
+	//Icons
+	@import "admin/icons.less";
+
+	// Components: Forms
+	@import "bootstrap/forms.less";
+
+	// Components: Dropdowns
+	@import "bootstrap/dropdowns.less";
+
+	// Components: Nav
+	@import "bootstrap/navs.less";
+	@import "bootstrap/navbar.less";
+
+	// Utility classes
+	@import "bootstrap/utilities.less"; // Has to be last to override when necessary
+
+	@import "fonts.less";
+	@import "mobile-preview.less";
+	@import "admin/iconmap.less";
+	@import "admin/add-content-ui.less";
+	@import "admin-frontend-custom.less";
+
+} //  /.mura
+
+.cke_reset_all{
+
+	@import "bootstrap/buttons.less";
+	@import "ckeditor-override.less";
+
+}
+
+@import "mura-editable-custom.less";

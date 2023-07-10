@@ -1,0 +1,10 @@
+<cfparam name="objectparams.interval" default="5000">
+<cfparam name="objectparams.imageSize" default="hero">
+<cfparam name="objectparams.height" default="900">
+<cfparam name="objectparams.width" default="1600">
+<cfparam name="objectparams.autostart" default="Yes">
+<cfparam name="objectparams.showArrows" default="Yes">
+<cfparam name="objectparams.showPager" default="Yes">
+<cfparam name="objectparams.showCaption" default="Yes">
+<cfparam name="objectparams.cssID" default="myCarousel">
+<cfparam name="objectparams.scrollpages" default="false">

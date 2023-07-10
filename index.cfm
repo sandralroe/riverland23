@@ -1,0 +1,1 @@
+<!--- license goes here ---><cfoutput>#application.contentServer.handleRootRequest()#</cfoutput>

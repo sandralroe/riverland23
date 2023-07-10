@@ -1,0 +1,26 @@
+.card{
+    height:auto;
+    &.mura-collection-item__holder{
+        height:100%;
+    }
+}
+.card-img-right{
+    img{
+        border-radius:0 $border-radius-lg $border-radius-lg 0;
+    }
+}
+.card-img-left{
+    img{
+        border-radius:$border-radius-lg 0 0 $border-radius-lg;
+    }
+}
+
+.card-img-right, .card-img-left{
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        max-width: 100%;
+    }
+}

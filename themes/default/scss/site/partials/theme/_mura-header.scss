@@ -1,0 +1,58 @@
+div.mura-object[data-object="header"]{
+    background-color:$blue;
+    padding: 0;
+    align-content:center !important;
+    height:320px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center !important;
+    margin-bottom:2rem;
+    
+    header{
+        h1,h2,h3,h4,h5,h6,p{
+            text-align:left;
+            color:#fff;
+        }        
+    }
+    .list-inline{
+        .release-date, .credits{
+            @extend .text-white;
+        }
+    }
+    .breadcrumb{
+        @extend .mb-1;
+        .breadcrumb-item{
+            @extend .small;
+            a{
+                @extend .text-white;
+            }
+            & + .breadcrumb-item{
+                &:before{
+                    color:rgba(255,255,255,.5);
+                    margin-right: .25rem;
+                }
+            }
+        }
+    }
+    .tag{
+        @extend .badge, .text-white;
+        background:rgba(255,255,255,.3);
+    }
+    .comments, .credits, .rating, .release-date{
+        @extend .small;
+        float: none;
+    }
+}
+//larger header on blog header
+#blog.depth-2 [data-object="header"]{
+    height:460px;
+}
+
+@media(max-width:767px){
+	[data-object="header"]{
+        .container{
+            padding-left:$mobile-horizontal-padding;
+		    padding-right:$mobile-horizontal-padding;
+        }
+	}
+}

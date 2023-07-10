@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.adobe.ide.coldfusion.feature:3.2.1.201902041055"/>
+		<item value="com.adobe.ide.coldfusion.rcp.feature:3.2.1.201902041055"/>
+		<item value="de.anbos.eclipse.logviewer.feature:0.9.9.201902041055"/>
+		<item value="org.eclipse.draw2d:3.10.100.201606061308"/>
+		<item value="org.eclipse.emf.common:2.15.0.v20180723-1316"/>
+		<item value="org.eclipse.emf.ecore:2.15.0.v20180722-1159"/>
+		<item value="org.eclipse.gef:3.11.0.201606061308"/>
+		<item value="org.eclipse.help:2.2.300.v20180906-0745"/>
+		<item value="org.eclipse.jdt:3.15.0.v20180906-0745"/>
+		<item value="org.eclipse.platform:4.9.0.v20180906-1121"/>
+		<item value="org.eclipse.rcp:4.9.0.v20180906-1121"/>
+		<item value="org.eclipse.rse.core:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse.dstore:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse.ftp:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse.local:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse.ssh:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse.telnet:4.5.0.201809101428"/>
+		<item value="org.eclipse.rse:4.5.0.201809101428"/>
+		<item value="org.eclipse.wst.xml_ui.feature:3.11.0.v201807252207"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+</section>
