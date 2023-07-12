@@ -1,7 +1,7 @@
 <cfoutput>
 
 		<cfif len($.dspObjects(3))>
-		</div><cfelse><div class="sectionmargins">
+	<cfelse><div class="sectionmargins">
 			<div class="container">
 			#Mura.dspObjects(3)#<!---Pre-Footer Display Region--->
 			</div></cfif>
