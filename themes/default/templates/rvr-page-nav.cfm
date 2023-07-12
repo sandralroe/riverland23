@@ -26,9 +26,9 @@
 					, showMetaImage=false
 				)#  
 
-				#Mura.dspObjects(7)#
+				
 		</div>
-		<div class="col-md-3 bg-light padding0">#Mura.dspObjects(5)#
+		<div class="col-md-3 bg-light padding0">#Mura.dspObjects(4)#
 		</div>
 	</div>
 
