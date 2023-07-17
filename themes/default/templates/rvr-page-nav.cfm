@@ -19,7 +19,7 @@
 	  
 	  <div class="container">
    <div class="row">
-     <div class="col-md-9 bg-success">
+     <div class="col-md-9">
       <h1>#$.content('title')#</h1>
 	  #Mura.dspBody(
 					body=Mura.content('body')
@@ -29,7 +29,7 @@
 				)#     
      </div>
      <!--- /.col-sm-6 --->
-     <div class="col-md-3 bg-info">
+     <div class="col-md-3 rounded bg-light">
    #Mura.dspObjects(4)#
      </div>
      <!--- /.col-sm-6 --->
