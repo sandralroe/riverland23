@@ -1,12 +1,10 @@
 <cfoutput>
-<div class="sectionmargins">
-	<div class="container">
-	 #Mura.renderEditableAttribute(attribute="body",type="htmlEditor")#
-	</div>
-	<div class="container">
-		#Mura.dspObject(
+
+	 <div class="bg-warning">#Mura.renderEditableAttribute(attribute="body",type="htmlEditor")#</div>
+
+		 <div class="bg-danger">#Mura.dspObject(
 		object="folder",
 		params=objectParams
-		)#
-	</div>
+		)#</div>
+
 </cfoutput>
