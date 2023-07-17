@@ -20,9 +20,6 @@
    
   </div>
 </div>
-		
-		
-		
 		<cfinclude template="inc/footer.cfm" />
 		<cfinclude template="inc/html_foot.cfm" />
 	</body>
