@@ -19,7 +19,7 @@
 				<div class="container">
 	<div class="row">
 		<div class="col-md-9"><cfset pageTitle = Mura.content('type') neq 'Page' ? Mura.content('title') : ''>
-		
+		 <h1>#$.content('title')#</h1>
 				#Mura.dspBody(
 					body=Mura.content('body')
 					, pageTitle=pageTitle

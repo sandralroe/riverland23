@@ -13,6 +13,7 @@
 				<div><div class="bctransbox"><div class="container"><nav aria-label="breadcrumb">#$.dspCrumbListLinks(class="")#</nav></div></div>
 		
 			<cfset pageTitle = Mura.content('type') neq 'Page' ? Mura.content('title') : ''>
+			 <h1>#$.content('title')#</h1>
 			#Mura.dspBody(
 				body=Mura.content('body')
 				, pageTitle=pageTitle
