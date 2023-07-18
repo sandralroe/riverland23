@@ -8227,7 +8227,10 @@ div[data-layout=grid] .mura-item-meta {
   display: none !important
 }
 div.mura-object[data-object=header] {
-  background-color: #1968b3;
+  background: linear-gradient(-45deg, #1968b3, #004c98, #003c7f, #39b54a);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
   padding: 0;
   -ms-flex-line-pack: center !important;
   align-content: center !important;
@@ -8240,6 +8243,18 @@ div.mura-object[data-object=header] {
   align-items: center !important;
   margin-bottom: 0rem
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 div.mura-object[data-object=header] header h1, div.mura-object[data-object=header] header h2, div.mura-object[data-object=header] header h3, div.mura-object[data-object=header] header h4, div.mura-object[data-object=header] header h5, div.mura-object[data-object=header] header h6, div.mura-object[data-object=header] header p {
   text-align: left;
   color: #fff

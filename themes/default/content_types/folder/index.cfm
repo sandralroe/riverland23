@@ -1,8 +1,8 @@
 <cfoutput>
 
-	 <div class="bg-warning">#Mura.renderEditableAttribute(attribute="body",type="htmlEditor")#</div>
+	 <div>#Mura.renderEditableAttribute(attribute="body",type="htmlEditor")#</div>
 
-		 <div class="bg-danger">#Mura.dspObject(
+		 <div>#Mura.dspObject(
 		object="folder",
 		params=objectParams
 		)#</div>
