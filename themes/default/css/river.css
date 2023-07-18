@@ -44,6 +44,9 @@ h5 {
   font-weight: 400;
   color: #1968b3;
 }
+title {
+  font-size: 1.3rem;
+}
 
 /* Similarly, you can define styles for h3, h4, h5, and h6 */
 
