@@ -364,13 +364,7 @@ div.bctransbox a {
   color: #fff;
   margin-left: 5px;
 }
-.subnav {
-  margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-  background: #2baddc;
-}
+
 .mura-nav-multi-level {
   margin-top: 10px;
   padding: 10px;

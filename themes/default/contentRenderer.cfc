@@ -164,7 +164,7 @@
 		this.navWrapperClass = "p-1 mb-2 rounded small";
 		this.navWrapperBodyClass = "";
 		this.navLIClass = "nav-item border-bottom";
-		this.liHasKidsClass = "subnav";
+		this.liHasKidsClass = "";
 		this.liHasKidsCustomString = "";
 		this.liCurrentClass = "activenav";
 		this.liCurrentCustomString = "";
