@@ -47,6 +47,10 @@ h5 {
 title {
   font-size: 1.3rem;
 }
+mura-item-meta__summary
+{
+  font-size: .8rem;
+}
 
 /* Similarly, you can define styles for h3, h4, h5, and h6 */
 
