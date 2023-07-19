@@ -166,12 +166,12 @@
 		this.navLIClass = "nav-item border-bottom";
 		this.liHasKidsClass = "";
 		this.liHasKidsCustomString = "";
-		this.liCurrentClass = "";
+		this.liCurrentClass = "activenav";
 		this.liCurrentCustomString = "";
 		this.aNotCurrentClass = "nav-link";
 		this.aHasKidsClass = "";
 		this.aHasKidsCustomString = "";
-		this.aCurrentClass = "nav-link activenav border-bottom bg-primary text-white";
+		this.aCurrentClass = "nav-link border-bottom bg-primary text-white";
 		this.aCurrentCustomString = "";
 		this.ulTopClass = "nav flex-column";
 		this.ulNestedClass = "nav flex-column ml-3 bl-1";
