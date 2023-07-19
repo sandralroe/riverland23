@@ -309,7 +309,9 @@ div.bctransbox a {
 
 /* navigation */
 
-
+.mura-nav-sub .active {
+  background-color: #169551;
+}
 
 .mura-nav-sub {
   margin-top: 10px;
