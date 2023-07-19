@@ -115,6 +115,13 @@ div.bctransbox a {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.alert-info {
+  color: #00244c;
+  background-color: #6eb3ff;
+  border-color: #3b98ff
+}
+
 .bg-pink{
   background-color: #cb817e;
   color: #ffffff;
