@@ -121,6 +121,9 @@ div.bctransbox a {
   background-color: #6eb3ff;
   border-color: #3b98ff
 }
+.alert-info a {
+  color: #ffffff;
+}
 
 .bg-pink{
   background-color: #cb817e;
