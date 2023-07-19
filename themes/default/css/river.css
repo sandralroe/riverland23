@@ -364,6 +364,31 @@ div.bctransbox a {
   color: #fff;
   margin-left: 5px;
 }
+.mura-nav-multi-level {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #1968b3;
+}
+
+.mura-nav-multi-level a {
+  transition: 0.3s ease;
+  background: #1968b3;
+  color: white;
+  text-decoration: none;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+.mura-nav-multi-level a:hover {
+  background: #5489ed;
+  border-left: 15px solid #169551;
+  color: #fff;
+  margin-left: 5px;
+}
 
 /* fonts */
 
