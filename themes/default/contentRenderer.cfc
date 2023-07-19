@@ -171,7 +171,7 @@
 		this.aNotCurrentClass = "nav-link";
 		this.aHasKidsClass = "";
 		this.aHasKidsCustomString = "";
-		this.aCurrentClass = "nav-link active border-bottom bg-primary text-white";
+		this.aCurrentClass = "nav-link activenav border-bottom bg-primary text-white";
 		this.aCurrentCustomString = "";
 		this.ulTopClass = "nav flex-column";
 		this.ulNestedClass = "nav flex-column ml-3 bl-1";

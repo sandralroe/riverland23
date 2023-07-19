@@ -309,8 +309,8 @@ div.bctransbox a {
 
 /* navigation */
 
-.mura-nav-sub .active {
-  background-color: #169551;
+.activenav {
+  background-color: #19b364;
 }
 
 .mura-nav-sub {
