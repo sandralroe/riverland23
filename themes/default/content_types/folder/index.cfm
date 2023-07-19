@@ -5,6 +5,8 @@
 		 <div>#Mura.dspObject(
 		object="folder",
 		params=objectParams
-		)#</div>
- #Mura.dspObjects(5)#
+		)#
+		 #Mura.dspObjects(5)#
+		</div>
+
 </cfoutput>
