@@ -309,9 +309,7 @@ div.bctransbox a {
 
 /* navigation */
 
-.activenav {
-  background-color: #19b364;
-}
+
 
 .mura-nav-sub {
   margin-top: 10px;
@@ -338,7 +336,9 @@ div.bctransbox a {
   color: #fff;
   margin-left: 5px;
 }
-
+.activenav {
+  background-color: #19b364;
+}
 .mura-nav-peer {
   margin-top: 10px;
   padding: 10px;
