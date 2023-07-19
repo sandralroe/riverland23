@@ -31,6 +31,7 @@
      <!--- /.col-sm-6 --->
      <div class="col-md-3 rounded bg-light">
    #Mura.dspObjects(4)#
+  
      </div>
      <!--- /.col-sm-6 --->
    </div>

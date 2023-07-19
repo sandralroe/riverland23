@@ -301,31 +301,30 @@ div.bctransbox a {
 
 
 
-.sidenav {
+.mura-nav-sub {
   margin-top: 10px;
-  padding: 24px;
+  padding: 10px;
   text-align: center;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   background: #1968b3;
 }
 
-.sidenav a {
+.mura-nav-sub a {
   transition: 0.3s ease;
   background: #1968b3;
   color: white;
-  font-size: 20px;
   text-decoration: none;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 0 5px;
   font-size: 17px;
 }
-.sidenav a:hover {
+.mura-nav-sub a:hover {
   background: #5489ed;
-  border-left: 5px solid #f87703;
+  border-left: 15px solid #169551;
   color: #fff;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 /* fonts */
