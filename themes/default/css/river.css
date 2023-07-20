@@ -66,6 +66,13 @@ title {
 .headerbc a{
   color: #ffffff;
 }
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
 /* breadcrumbs */
 .mycontainer {
   position: relative;
@@ -333,7 +340,7 @@ div.bctransbox a {
 }
 .mura-nav-sub a:hover {
   background: #5489ed;
-  border-left: 15px solid #169551;
+  border-left: 3px solid #169551;
   color: #fff;
   margin-left: 5px;
 }
@@ -343,7 +350,7 @@ div.bctransbox a {
 .mura-nav-peer {
   margin-top: 10px;
   padding: 10px;
-  text-align: center;
+ 
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   background: #1968b3;
 }
@@ -361,7 +368,7 @@ div.bctransbox a {
 }
 .mura-nav-peer a:hover {
   background: #5489ed;
-  border-left: 15px solid #169551;
+  border-left: 3px solid #169551;
   color: #fff;
   margin-left: 5px;
 }
