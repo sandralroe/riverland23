@@ -346,16 +346,13 @@ div.bctransbox a {
 .activenav {
   background-color: #19b364;
 }
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
 
-.right {
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
+#triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid rgb(255, 255, 255);
+  border-bottom: 50px solid transparent;
 }
 .mura-nav-peer {
   margin-top: 10px;

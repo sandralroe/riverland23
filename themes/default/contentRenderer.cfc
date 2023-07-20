@@ -166,7 +166,7 @@
 		this.navLIClass = "nav-item border-bottom";
 		this.liHasKidsClass = "";
 		this.liHasKidsCustomString = "";
-		this.liCurrentClass = "arrow right";
+		this.liCurrentClass = "triangle-right";
 		this.liCurrentCustomString = "";
 		this.aNotCurrentClass = "nav-link";
 		this.aHasKidsClass = "";
